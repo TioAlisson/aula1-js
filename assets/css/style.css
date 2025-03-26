@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* { padding: 0; margin: 0; box-sizing: border-box; }
+
+:root {
+    --primary: #495168;
+    --font-primary: "Roboto Mono";
+}
+
+body { background-color: var(--primary); font-family: var(--font-primary); }
+
+h1 { text-align: center; padding-top: 40px; }
+
+input { border: none; outline: none; padding: 10px 20px; border-radius: 20px; }
